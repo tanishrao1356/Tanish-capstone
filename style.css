@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding:48px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h1{
+    font-family: Syne;
+font-size: 42px;
+font-weight: 800;
+line-height: 42px;
+letter-spacing: -0.04em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.links a{
+    font-family: Cutive;
+font-size: 28px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: -0.01em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-decoration: none;
+color: #1D221B;
+margin-left: 32px;
+}
+.header img{
+    Width:1344px;
+    Height:672px;
+    border-Radius:22px;
+    Border:2px;
+}
+.images-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 48px 0px 48px 0px;
+    gap: 48px;
+    opacity: 0px;
+
+}
+.image-container{
+    gap: 0px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+}
+.main-text h1{
+    font-family: Cutive;
+font-size: 48px;
+font-weight: 400;
+line-height: 52px;
+letter-spacing: -0.01em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding:0 30%;
+}
+
+
+.end {
+    padding: 96px 24px;
+    text-align: center;
+    background-image:url("bg.png");
+
+}
+
+label {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+#email {
+    margin-top: 44px;
+    width: 100%;
+    max-width: 400px;
+    height: 32px;
+    background-color: transparent;
+    font-family: 'Cutive', serif;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+#subs {
+    height: 50px;
+    background-color: #026600;
+    font-family: 'Spline Sans Mono', monospace;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-left: 8px;
+}
+
+#subs:hover {
+    background-color: #004d00;
+}
+
+#fb, #insta, #X {
+    padding-top:40px;
+    width: 40px;
+    height: 40px;
+    margin: 0 16px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    line-height: 28px;
+    padding: 10px;
+    justify-content: space-between;
+}
+footer p{
+    text-align: left;
+    font-weight: 600;
+    font-size: 20px;
+}
+#butt {
+    background-color: transparent;
+    font-family: 'Spline Sans Mono', monospace;
+    font-weight: 500;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid black;
+    height:36px;
+    line-height: 28px;
+
+}
+
+#butt:hover {
+    background-color: #f2f2f2;
+}
